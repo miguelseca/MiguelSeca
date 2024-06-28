@@ -15,7 +15,6 @@ export default function Home() {
         className="flex flex-col bg-cover bg-center bg-fixed items-center justify-center h-[calc(100vh-200px)] min-h-[400px] 
         bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-800 to-zinc-900"
       >
-        {/* <div className="bg-white/30 py-2 px-4 rounded-full text-center backdrop-blur-md"> */}
         <div className=" rounded-full">
           <img src="/images/me.jpg" className=" rounded-full" width={250}></img>
         </div>
