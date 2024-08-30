@@ -10,7 +10,7 @@ export default function About() {
 
         <p className="flex items-center justify-center mt-8 text-justify">
           My name is Miguel Seca. I&apos;m 44 years old, I have two children,
-          four cats, and I'm really good at co nstructing Legos (I can supply
+          four cats, and I&apos;m really good at co nstructing Legos (I can supply
           pictures if needed). I have always loved programming and have been
           doing it in various forms throughout my life. My journey began in
           middle school with QBasic and Pascal, and in college, I worked with
