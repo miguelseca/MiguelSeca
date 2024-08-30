@@ -1,27 +1,41 @@
 export default function About() {
   return (
-    <div className="max-w-screen-lg mx-auto mt-20 pr-6 pl-6 text-zinc-900 dark:text-zinc-200">
-      <h2 className="mt-20">About Me</h2>
+    <>
+      <div id="about"> </div>
 
-      <p className="flex items-center justify-center font-bold">
-        Once they're gone, they are gone!
-      </p>
+      <div className="max-w-screen-lg mx-auto mt-20 pr-6 pl-6 text-zinc-900 dark:text-zinc-200">
+        <h2 className="mt-20">About</h2>
 
-      <p className="flex items-center justify-center mt-5 text-justify">
-        I'm a software developer working as a full stack developer with Java,
-        React and SQL Com mais de 16 anos de experiência no setor de aviação e
-        logistica, particularmente em gestão de sistemas de carga aérea tenho um
-        profundo conhecimento de ambientes operacionais complexos. Neste
-        contexto passei por várias áreas desde a coordenação de operações
-        logísticas à formação e obtive experiência em bases de dados SQL e
-        scripting. Após ter trabalhado em alguns projetos freelance em Angular
-        completei o curso de Frontend developer no Instituto Politécnico do
-        Porto e trabalho desde então como full stack developer com Java e React.
-        A minha paixão por jogos, lógica e matemática reflete-se na minha
-        abordagem à resolução de problemas e o meu sentido de humor e
-        creatividade são características que me permitiram adaptar a vários
-        contextos profissionais e ultrapassar inúmeros desafios.
-      </p>
-    </div>
+        <p className="flex items-center justify-center mt-8 text-justify">
+          My name is Miguel Seca. I’m 44 years old, I have two children, four
+          cats, and I'm really good at constructing Legos (I can supply pictures
+          if needed). I have always loved programming and have been doing it in
+          various forms throughout my life. My journey began in middle school
+          with QBasic and Pascal, and in college, I worked with MATLAB and
+          Fortran to solve differential equations and analyse the spectrum of
+          stars.
+        </p>
+
+        <p className="flex items-center justify-center mt-8 text-justify">
+          My professional life can be divided into two parts. Initially, I
+          worked on planning cargo loading for aircraft, which kept me somewhat
+          distant from "real" programming. During this time, I dabbled in Python
+          and Kotlin, explored Android development, and experimented with Unity,
+          driven by a constant curiosity and eagerness to learn. In the second
+          part of my career, I joined a small project that grew significantly,
+          where I discovered Angular, React, and other exciting tools.
+          Currently, I am working on a complex healthcare-related project as a
+          full-stack developer .
+        </p>
+
+        <p className="flex items-center justify-center mt-8 mb-4 text-justify">
+          For me programming will allways be a continuous journey.
+        </p>
+
+        <div className="flex items-center justify-center">
+          <img src="/images/while_alive.jpg" className="" width={300}></img>
+        </div>
+      </div>
+    </>
   );
 }

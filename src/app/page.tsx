@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
 
       <div
-        //style={{ backgroundImage: "url('/images/hero.jpg')" }}
+        style={{ backgroundImage: "url('/images/back.jpg')" }}
         className="flex flex-col bg-cover bg-center bg-fixed items-center justify-center h-[calc(100vh-200px)] min-h-[400px] 
         bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-800 to-zinc-900"
       >
@@ -27,7 +27,6 @@ export default function Home() {
       <TimeLine />
       <Projects />
       <Skills />
-
       <Footer />
     </div>
   );
