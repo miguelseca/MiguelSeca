@@ -19,7 +19,7 @@ export default function Projects() {
       <div id="projects"> </div>
       <div className="max-w-screen-lg mx-auto mt-20 pr-6 pl-6 text-zinc-900 dark:text-zinc-200">
         <h2>Projects</h2>
-        <p>These are some of myu freelance projects and experiments (don't be too judgy...) </p>
+        <p>These are some of my freelance projects and experiments</p>
 
         <div className="flex">
           {/* seta da esquerda */}

@@ -14,7 +14,7 @@ export default function Projects() {
           </li>
           <li>
             <a href="#" className="hover:underline">
-              Say "Hello there" back
+              Say &apos;Hello there&apos; back
             </a>
           </li>
         </ul>

@@ -38,10 +38,10 @@ export default function TimeLine() {
             <div></div>
             <div className="text-right">
               <div className="font-bold">
-                Bachelor's Degree in physics and applied mathematics
+                Bachelor&apos;s Degree in physics and applied mathematics
               </div>
               <div className="text-zinc-400">
-                Faculty of Sceience of Oporto' s University
+                Faculty of Science of Oporto&apos;s University
               </div>
             </div>
             <div></div>
